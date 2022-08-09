@@ -29,10 +29,14 @@ expectSuccess()
 
 expectSuccess valid-locator-0.json
 expectSuccess valid-locator-1.json
+expectSuccess valid-locator-2.json
+expectSuccess valid-locator-3.json
 expectFailure invalid-locator-1.json
 expectFailure invalid-locator-2.json
 expectFailure invalid-locator-3.json
 expectFailure invalid-locator-4.json
+expectFailure invalid-locator-5.json
+expectFailure invalid-locator-6.json
 
 echo
 echo "Summary"
